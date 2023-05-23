@@ -1,2 +1,43 @@
--- ftd.text: Hello world!
+-- import: fifthtry.github.io/doc-site as ds
+-- import: fifthtry.github.io/winter-cs as wc
+-- import: nilinswap-his.github.io/fastn-project/assets
 
+
+-- ds.page: hello world
+colors: $wc.main
+
+Consequat qui qui ex duis dolor quis fugiat adipisicing et minim incididunt officia. Id eu officia deserunt ut. Esse do velit consequat dolore.
+
+-- ds.h1: About this page
+
+This page is created using 4 packages. They are
+- admonitions
+- demo-site
+
+-- ftd.row:
+spacing.fixed.px: 20
+
+-- ftd.image:
+src: $assets.files.images.market.jpg
+width.fixed.px: 200
+
+-- ftd.image:
+src: $assets.files.images.house.jpg
+width.fixed.px: 200
+
+-- ftd.image:
+src: $assets.files.images.m1.HEIC
+width.fixed.px: 200
+
+-- ftd.image:
+src: $assets.files.images.m2.HEIC
+width.fixed.px: 200
+
+-- ftd.image:
+src: $assets.files.images.m3.HEIC
+width.fixed.px: 200
+
+-- end: ftd.row
+
+
+-- end: ds.page
